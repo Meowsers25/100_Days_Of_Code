@@ -3,8 +3,8 @@
 from datetime import datetime
 from datetime import date
 
-print(datetime.today())
-print(date.today())
+print(datetime.today()) # date and time
+print(date.today()) # just date
 
 today = datetime.today()
 print(today)
@@ -23,7 +23,7 @@ print(today.hour)
 print(today.minute)
 print(today.second)
 
-christmas = date(2018, 12, 25)
+christmas = date(2018, 12, 25) # assign date to variable
 print(christmas)
 print(christmas - today_date)
 
@@ -35,6 +35,8 @@ else:
 k_bday = date(2018, 10, 15)
 print(k_bday)
 
+
+# is not did not work for me, but != did
 if k_bday != today_date:
   print('Awwwww, sorry.......')
 else:
