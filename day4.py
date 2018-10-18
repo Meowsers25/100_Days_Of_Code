@@ -42,5 +42,6 @@ electronic typesetting, remaining essentially unchanged. It was popularised in t
 Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
 PageMaker including versions of Lorem Ipsum""".split()
 print(words[:5])
+# using Counter......WOW
 print(Counter(words).most_common(5))
 
